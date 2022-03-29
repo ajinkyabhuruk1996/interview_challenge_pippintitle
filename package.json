@@ -1,0 +1,21 @@
+{
+  "name": "nodejs-restapi",
+  "version": "1.0.0",
+  "description": "Node.js RestAPI - GET/POST/PUT/DELETE",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "startserver": "server.js"
+  },
+  "keywords": [
+    "Node.js",
+    "RestAPI"
+  ],
+  "author": "JavaSampleApproach.com",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.3"
+  }
+}
