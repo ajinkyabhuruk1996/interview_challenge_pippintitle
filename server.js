@@ -10,8 +10,8 @@ const corsOptions = {
 }
 app.use(cors(corsOptions))
 
-let customerRouter = require('./app/routes/customer.routes.js');
-app.use('/', customerRouter);
+let bookRouter = require('./app/routes/book.routes.js');
+app.use('/', bookRouter);
 
 // Create a Server
 let server = app.listen(8080, function () {
